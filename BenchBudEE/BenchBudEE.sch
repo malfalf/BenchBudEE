@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBuddy
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "4 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -116,8 +117,9 @@ U 52ED1C4D
 F0 "Relay" 50
 F1 "Relay.sch" 50
 F2 "DIN+" I L 7100 5800 60 
-F3 "Relay+" I R 8850 5800 60 
-F4 "Relay-" O R 8850 6100 60 
-F5 "DIN-" O L 7100 6100 60 
+F3 "DIN-" O L 7100 6100 60 
+F4 "NC" B R 8850 6000 60 
+F5 "NO" B R 8850 6250 60 
+F6 "COM" B R 8850 5750 60 
 $EndSheet
 $EndSCHEMATC
