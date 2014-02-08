@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date "8 feb 2014"
 Rev ""
@@ -72,12 +72,6 @@ F4 "MOSI" I L 7100 4200 60
 F5 "MISO" O L 7100 4400 60 
 F6 "SCLK" I L 7100 4600 60 
 F7 "CS_N" I L 7100 4800 60 
-$EndSheet
-$Sheet
-S 2800 1300 1600 1050
-U 52ED1C5C
-F0 "Power" 50
-F1 "Power.sch" 50
 $EndSheet
 $Sheet
 S 7100 2550 1750 1200
@@ -121,5 +115,17 @@ F3 "DIN-" O L 7100 6100 60
 F4 "NC" B R 8850 6000 60 
 F5 "NO" B R 8850 6250 60 
 F6 "COM" B R 8850 5750 60 
+$EndSheet
+$Sheet
+S 4050 1000 1750 1050
+U 52F64583
+F0 "PowerAdjustmentMonitor" 50
+F1 "PowerAdjustmentMonitor.sch" 50
+$EndSheet
+$Sheet
+S 700  700  1600 1050
+U 52ED1C5C
+F0 "Power" 50
+F1 "Power.sch" 50
 $EndSheet
 $EndSCHEMATC
