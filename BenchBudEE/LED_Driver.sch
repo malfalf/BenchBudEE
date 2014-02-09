@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 4 9
 Title ""
 Date "9 feb 2014"
 Rev ""
@@ -45,12 +45,171 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2200 2450 0    60   Input ~ 0
-EN
-Text HLabel 2300 2700 0    60   Input ~ 0
-FREQ
-Text HLabel 7900 2400 0    60   Output ~ 0
+Text HLabel 2050 2300 0    60   Input ~ 0
+LED_EN_PWM
+Text HLabel 9300 1150 2    60   Output ~ 0
 String+
-Text HLabel 7900 2700 0    60   Input ~ 0
+Text HLabel 9350 1950 2    60   Input ~ 0
 String-
+$Comp
+L AP5726 U?
+U 1 1 52F7B15F
+P 3300 2150
+F 0 "U?" H 3600 1700 60  0000 C CNN
+F 1 "AP5726" H 3250 2150 60  0000 C CNN
+F 2 "" H 3200 2050 60  0000 C CNN
+F 3 "" H 3200 2050 60  0000 C CNN
+	1    3300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 52F7B180
+P 2250 1050
+F 0 "#PWR?" H 2250 1140 20  0001 C CNN
+F 1 "+5V" H 2250 1140 30  0000 C CNN
+F 2 "" H 2250 1050 60  0000 C CNN
+F 3 "" H 2250 1050 60  0000 C CNN
+	1    2250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52F7B18F
+P 2250 1750
+F 0 "#PWR?" H 2250 1750 30  0001 C CNN
+F 1 "GND" H 2250 1680 30  0001 C CNN
+F 2 "" H 2250 1750 60  0000 C CNN
+F 3 "" H 2250 1750 60  0000 C CNN
+	1    2250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52F7B19C
+P 3250 3000
+F 0 "#PWR?" H 3250 3000 30  0001 C CNN
+F 1 "GND" H 3250 2930 30  0001 C CNN
+F 2 "" H 3250 3000 60  0000 C CNN
+F 3 "" H 3250 3000 60  0000 C CNN
+	1    3250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 52F7B1BA
+P 2250 1450
+F 0 "C?" H 2250 1550 40  0000 L CNN
+F 1 "C" H 2256 1365 40  0000 L CNN
+F 2 "~" H 2288 1300 30  0000 C CNN
+F 3 "~" H 2250 1450 60  0000 C CNN
+	1    2250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 52F7B1DD
+P 3600 1150
+F 0 "L?" V 3550 1150 40  0000 C CNN
+F 1 "INDUCTOR" V 3700 1150 40  0000 C CNN
+F 2 "~" H 3600 1150 60  0000 C CNN
+F 3 "~" H 3600 1150 60  0000 C CNN
+	1    3600 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 2300 2650 2300
+Wire Wire Line
+	3250 2800 3250 3000
+Wire Wire Line
+	2250 1050 2250 1250
+Wire Wire Line
+	2250 1650 2250 1750
+Wire Wire Line
+	2250 1150 3300 1150
+Wire Wire Line
+	3100 1150 3100 1550
+Connection ~ 2250 1150
+Connection ~ 3100 1150
+Wire Wire Line
+	3450 1550 3450 1350
+Wire Wire Line
+	3450 1350 4050 1350
+Wire Wire Line
+	4050 1350 4050 1150
+$Comp
+L C C?
+U 1 1 52F7B205
+P 8850 1400
+F 0 "C?" H 8850 1500 40  0000 L CNN
+F 1 "C" H 8856 1315 40  0000 L CNN
+F 2 "~" H 8888 1250 30  0000 C CNN
+F 3 "~" H 8850 1400 60  0000 C CNN
+	1    8850 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1150 8850 1200
+Connection ~ 4050 1150
+$Comp
+L GND #PWR?
+U 1 1 52F7B218
+P 8850 1700
+F 0 "#PWR?" H 8850 1700 30  0001 C CNN
+F 1 "GND" H 8850 1630 30  0001 C CNN
+F 2 "" H 8850 1700 60  0000 C CNN
+F 3 "" H 8850 1700 60  0000 C CNN
+	1    8850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1600 8850 1700
+$Comp
+L DIODESCH D?
+U 1 1 52F7B254
+P 4450 1150
+F 0 "D?" H 4450 1250 40  0000 C CNN
+F 1 "DIODESCH" H 4450 1050 40  0000 C CNN
+F 2 "~" H 4450 1150 60  0000 C CNN
+F 3 "~" H 4450 1150 60  0000 C CNN
+	1    4450 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1150 4250 1150
+Wire Wire Line
+	4650 1150 9300 1150
+Connection ~ 8850 1150
+Wire Wire Line
+	3950 2150 4100 2150
+Wire Wire Line
+	4100 2150 4100 1550
+Wire Wire Line
+	4100 1550 4800 1550
+Wire Wire Line
+	4800 1550 4800 1150
+Connection ~ 4800 1150
+$Comp
+L R R?
+U 1 1 52F7B2F0
+P 4450 2650
+F 0 "R?" V 4530 2650 40  0000 C CNN
+F 1 "R" V 4457 2651 40  0000 C CNN
+F 2 "~" V 4380 2650 30  0000 C CNN
+F 3 "~" H 4450 2650 30  0000 C CNN
+	1    4450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2350 4450 2350
+Wire Wire Line
+	4450 1950 4450 2400
+Wire Wire Line
+	4450 2900 4450 2950
+Wire Wire Line
+	4450 2950 3250 2950
+Connection ~ 3250 2950
+Wire Wire Line
+	9350 1950 4450 1950
+Connection ~ 4450 2350
 $EndSCHEMATC
