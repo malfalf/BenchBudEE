@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "11 feb 2014"
+Date "16 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -156,8 +156,6 @@ F4 "3V3_MON" O L 4050 1150 60
 F5 "5V_MON" O L 4050 1250 60 
 F6 "V+_ADJ_MON" O L 4050 1800 60 
 F7 "V-_ADJ_MON" O L 4050 1900 60 
-F8 "V+_CURR_MON" O L 4050 1450 60 
-F9 "V-_CURR_MON" O L 4050 1550 60 
 $EndSheet
 Wire Wire Line
 	3300 2950 3450 2950

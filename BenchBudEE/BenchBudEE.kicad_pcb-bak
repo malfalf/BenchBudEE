@@ -12,13 +12,7 @@
     (nets 1)
   )
 
-  (page USLedger)
-  (title_block 
-    (title BenchBudEE)
-    (rev A)
-    (company "Contextual Electronics")
-  )
-
+  (page A3)
   (layers
     (15 F.Cu signal)
     (2 PWR power)
@@ -36,7 +30,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (trace_clearance 0.254)
     (zone_clearance 0.508)
@@ -61,8 +55,7 @@
     (mod_text_width 0.15)
     (pad_size 1.5 0.508)
     (pad_drill 0)
-    (pad_to_mask_clearance 0.254)
-    (solder_mask_min_width 0.127)
+    (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -105,9 +98,9 @@
     (add_net "")
   )
 
-  (gr_line (start 125.222 98.044) (end 125.222 161.544) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 290.322 98.044) (end 125.222 98.044) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 290.322 161.544) (end 290.322 98.044) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 125.222 161.544) (end 290.322 161.544) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 119.126 104.14) (end 119.126 167.64) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 284.226 104.14) (end 119.126 104.14) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 284.226 167.64) (end 284.226 104.14) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 119.126 167.64) (end 284.226 167.64) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )

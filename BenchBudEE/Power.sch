@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "11 feb 2014"
+Date "16 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -69,28 +69,6 @@ F 3 "" H 1700 1600 60  0000 C CNN
 	1    1700 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 52F651A0
-P 4350 1000
-F 0 "#PWR?" H 4350 960 30  0001 C CNN
-F 1 "+3.3V" H 4350 1110 30  0000 C CNN
-F 2 "" H 4350 1000 60  0000 C CNN
-F 3 "" H 4350 1000 60  0000 C CNN
-	1    4350 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 52F651AF
-P 5000 1000
-F 0 "#PWR?" H 5000 1090 20  0001 C CNN
-F 1 "+5V" H 5000 1090 30  0000 C CNN
-F 2 "" H 5000 1000 60  0000 C CNN
-F 3 "" H 5000 1000 60  0000 C CNN
-	1    5000 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3100 1350 3550 1350
 Wire Wire Line
@@ -102,14 +80,18 @@ Wire Wire Line
 Wire Wire Line
 	3250 1450 3250 1550
 Wire Wire Line
-	3100 1550 4300 1550
+	3100 1550 3250 1550
+Wire Wire Line
+	3250 1550 4300 1550
 Connection ~ 3250 1550
 Wire Wire Line
 	4800 1550 5000 1550
 Wire Wire Line
 	5000 1550 5000 1000
 Wire Wire Line
-	3100 1750 5150 1750
+	3100 1750 3400 1750
+Wire Wire Line
+	3400 1750 5150 1750
 Wire Wire Line
 	3100 1950 5900 1950
 $Comp
@@ -143,7 +125,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 1950 6400 1950
 Wire Wire Line
-	1700 1450 2300 1450
+	1700 1450 2050 1450
+Wire Wire Line
+	2050 1450 2300 1450
 Wire Wire Line
 	2050 1550 2300 1550
 Wire Wire Line
@@ -284,15 +268,21 @@ Wire Wire Line
 Wire Wire Line
 	8050 2950 8450 2950
 Wire Wire Line
-	9050 2950 9800 2950
+	9050 2950 9250 2950
+Wire Wire Line
+	9250 2950 9800 2950
 Wire Wire Line
 	9250 2950 9250 2900
 Wire Wire Line
-	9250 2500 9250 2400
+	9250 2500 9250 2450
+Wire Wire Line
+	9250 2450 9250 2400
 Wire Wire Line
 	9250 2000 9250 1950
 Wire Wire Line
-	9050 1950 9800 1950
+	9050 1950 9250 1950
+Wire Wire Line
+	9250 1950 9800 1950
 Wire Wire Line
 	9250 2450 8700 2450
 Wire Wire Line
@@ -394,5 +384,101 @@ F 2 "~" H 6150 1950 60  0000 C CNN
 F 3 "~" H 6150 1950 60  0000 C CNN
 	1    6150 1950
 	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 5300ADAC
+P 8800 800
+F 0 "L?" V 8750 800 40  0000 C CNN
+F 1 "INDUCTOR" V 8900 800 40  0000 C CNN
+F 2 "~" H 8800 800 60  0000 C CNN
+F 3 "~" H 8800 800 60  0000 C CNN
+	1    8800 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5300ADB2
+P 9300 1050
+F 0 "C?" H 9300 1150 40  0000 L CNN
+F 1 "C" H 9306 965 40  0000 L CNN
+F 2 "~" H 9338 900 30  0000 C CNN
+F 3 "~" H 9300 1050 60  0000 C CNN
+	1    9300 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 800  8100 800 
+Wire Wire Line
+	8100 800  8100 750 
+Wire Wire Line
+	9300 850  9300 800 
+Wire Wire Line
+	9100 800  9300 800 
+Wire Wire Line
+	9300 800  9850 800 
+Wire Wire Line
+	9300 1300 9300 1300
+Wire Wire Line
+	9300 1300 9300 1400
+$Comp
+L GND #PWR?
+U 1 1 5300ADC6
+P 9300 1400
+F 0 "#PWR?" H 9300 1400 30  0001 C CNN
+F 1 "GND" H 9300 1330 30  0001 C CNN
+F 2 "" H 9300 1400 60  0000 C CNN
+F 3 "" H 9300 1400 60  0000 C CNN
+	1    9300 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 800  9850 750 
+Connection ~ 9300 800 
+Wire Wire Line
+	9300 1250 9300 1300
+$Comp
+L +5P #PWR?
+U 1 1 5300AE45
+P 5000 1000
+F 0 "#PWR?" H 5000 1130 20  0001 C CNN
+F 1 "+5P" H 5000 1100 30  0000 C CNN
+F 2 "" H 5000 1000 60  0000 C CNN
+F 3 "" H 5000 1000 60  0000 C CNN
+	1    5000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3VP #PWR?
+U 1 1 5300AE54
+P 4350 1000
+F 0 "#PWR?" H 4400 1030 20  0001 C CNN
+F 1 "+3.3VP" H 4350 1090 30  0000 C CNN
+F 2 "" H 4350 1000 60  0000 C CNN
+F 3 "" H 4350 1000 60  0000 C CNN
+	1    4350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5P #PWR?
+U 1 1 5300AE61
+P 8100 750
+F 0 "#PWR?" H 8100 880 20  0001 C CNN
+F 1 "+5P" H 8100 850 30  0000 C CNN
+F 2 "" H 8100 750 60  0000 C CNN
+F 3 "" H 8100 750 60  0000 C CNN
+	1    8100 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5300AE69
+P 9850 750
+F 0 "#PWR?" H 9850 840 20  0001 C CNN
+F 1 "+5V" H 9850 840 30  0000 C CNN
+F 2 "" H 9850 750 60  0000 C CNN
+F 3 "" H 9850 750 60  0000 C CNN
+	1    9850 750 
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
