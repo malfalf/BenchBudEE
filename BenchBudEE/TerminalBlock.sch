@@ -51,13 +51,13 @@ Text HLabel 1850 2050 0    60   Input ~ 0
 V-_ADJ
 Text HLabel 1850 2800 0    60   Input ~ 0
 TACH_IN
-Text HLabel 1850 3700 0    60   Output ~ 0
+Text HLabel 1850 2400 0    60   Output ~ 0
 LED_STRING+
-Text HLabel 1850 3850 0    60   Output ~ 0
+Text HLabel 1850 2600 0    60   Output ~ 0
 LED_STRING-
-Text HLabel 1850 3200 0    60   Input ~ 0
+Text HLabel 1850 3700 0    60   Input ~ 0
 TC_IN+
-Text HLabel 1850 3350 0    60   Input ~ 0
+Text HLabel 1850 3850 0    60   Input ~ 0
 TC_IN-
 Text HLabel 1850 5500 0    60   BiDi ~ 0
 RELAY_COM
@@ -65,15 +65,15 @@ Text HLabel 1850 5100 0    60   BiDi ~ 0
 RELAY_NC
 Text HLabel 1850 5900 0    60   BiDi ~ 0
 RELAY_NO
-Text HLabel 1850 2400 0    60   Output ~ 0
+Text HLabel 1850 3200 0    60   Output ~ 0
 FAN_OUT+
-Text HLabel 1850 2600 0    60   Output ~ 0
+Text HLabel 1850 3350 0    60   Output ~ 0
 FAN_OUT-
 $Comp
-L +3.3V #PWR42
+L +3.3V #PWR038
 U 1 1 52F7DDCB
 P 1800 700
-F 0 "#PWR42" H 1800 660 30  0001 C CNN
+F 0 "#PWR038" H 1800 660 30  0001 C CNN
 F 1 "+3.3V" H 1800 810 30  0000 C CNN
 F 2 "" H 1800 700 60  0000 C CNN
 F 3 "" H 1800 700 60  0000 C CNN
@@ -81,10 +81,10 @@ F 3 "" H 1800 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR41
+L +5V #PWR039
 U 1 1 52F7DDDA
 P 1550 700
-F 0 "#PWR41" H 1550 790 20  0001 C CNN
+F 0 "#PWR039" H 1550 790 20  0001 C CNN
 F 1 "+5V" H 1550 790 30  0000 C CNN
 F 2 "" H 1550 700 60  0000 C CNN
 F 3 "" H 1550 700 60  0000 C CNN
@@ -92,10 +92,10 @@ F 3 "" H 1550 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR43
+L GND #PWR040
 U 1 1 52F7DDE9
 P 1850 1300
-F 0 "#PWR43" H 1850 1300 30  0001 C CNN
+F 0 "#PWR040" H 1850 1300 30  0001 C CNN
 F 1 "GND" H 1850 1230 30  0001 C CNN
 F 2 "" H 1850 1300 60  0000 C CNN
 F 3 "" H 1850 1300 60  0000 C CNN
