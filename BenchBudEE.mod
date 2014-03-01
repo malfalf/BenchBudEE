@@ -1,9 +1,10 @@
-PCBNEW-LibModule-V1  27/02/2014 18:41:44
+PCBNEW-LibModule-V1  01/03/2014 12:43:45
 # encoding utf-8
 Units mm
 $INDEX
 12_Pin_TB
 3_Pin_TB
+3mm-NPTH
 4-SMD
 ATX_Header
 Arduino
@@ -151,6 +152,22 @@ Ne 0 ""
 Po 10 0
 $EndPAD
 $EndMODULE 3_Pin_TB
+$MODULE 3mm-NPTH
+Po 0 0 0 15 5311C7E0 00000000 ~~
+Li 3mm-NPTH
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.7 1 1 0 0.15 N I 21 N "3 mm"
+T1 0 2.7 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE 3mm-NPTH
 $MODULE 4-SMD
 Po 0 0 0 15 53024C83 00000000 ~~
 Li 4-SMD
