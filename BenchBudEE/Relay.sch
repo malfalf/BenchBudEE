@@ -49,9 +49,9 @@ Text HLabel 2950 3050 0    60   Input ~ 0
 RELAY+
 Text HLabel 2950 3350 0    60   Output ~ 0
 RELAY-
-Text HLabel 10050 2550 2    60   BiDi ~ 0
-RELAY_NC
 Text HLabel 10050 2750 2    60   BiDi ~ 0
+RELAY_NC
+Text HLabel 10050 2550 2    60   BiDi ~ 0
 RELAY_NO
 $Comp
 L R R6

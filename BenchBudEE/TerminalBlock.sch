@@ -61,9 +61,9 @@ Text HLabel 1850 2950 0    60   Input ~ 0
 TC_IN-
 Text HLabel 1850 5500 0    60   BiDi ~ 0
 RELAY_COM
-Text HLabel 1850 5100 0    60   BiDi ~ 0
-RELAY_NC
 Text HLabel 1850 5900 0    60   BiDi ~ 0
+RELAY_NC
+Text HLabel 1850 5100 0    60   BiDi ~ 0
 RELAY_NO
 Text HLabel 1850 3850 0    60   Output ~ 0
 FAN_OUT+
