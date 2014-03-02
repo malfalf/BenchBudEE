@@ -1,4 +1,12 @@
-EESchema-DOCLIB  Version 2.0  Date: 22/02/2014 17:15:03
+EESchema-DOCLIB  Version 2.0  Date: 02/03/2014 11:04:23
+#
+$CMP MOS_N_NUM
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET_N
+F transistors/mos/*.*
+$ENDCMP
 #
 $CMP SPDT
 D Single Pole, Double Throw

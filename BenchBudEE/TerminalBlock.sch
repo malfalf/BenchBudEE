@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title ""
-Date "1 mar 2014"
+Date "2 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,19 +45,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1450 1900 0    60   Input ~ 0
+Text HLabel 1850 3850 0    60   Input ~ 0
 V+_ADJ
-Text HLabel 1450 2050 0    60   Input ~ 0
+Text HLabel 1850 3700 0    60   Input ~ 0
 V-_ADJ
-Text HLabel 1850 3350 0    60   Input ~ 0
+Text HLabel 1850 1650 0    60   Input ~ 0
 TACH_IN
-Text HLabel 1800 1000 0    60   Output ~ 0
+Text HLabel 1850 1000 0    60   Output ~ 0
 LED_STRING+
-Text HLabel 1800 1100 0    60   Output ~ 0
+Text HLabel 1850 1100 0    60   Output ~ 0
 LED_STRING-
-Text HLabel 1850 2800 0    60   Input ~ 0
+Text HLabel 1850 2450 0    60   Input ~ 0
 TC_IN+
-Text HLabel 1850 2950 0    60   Input ~ 0
+Text HLabel 1850 2300 0    60   Input ~ 0
 TC_IN-
 Text HLabel 1850 5500 0    60   BiDi ~ 0
 RELAY_COM
@@ -65,41 +65,41 @@ Text HLabel 1850 5900 0    60   BiDi ~ 0
 RELAY_NC
 Text HLabel 1850 5100 0    60   BiDi ~ 0
 RELAY_NO
-Text HLabel 1850 3850 0    60   Output ~ 0
+Text HLabel 1850 2050 0    60   Output ~ 0
 FAN_OUT+
-Text HLabel 1850 3700 0    60   Output ~ 0
+Text HLabel 1850 1850 0    60   Output ~ 0
 FAN_OUT-
 $Comp
 L +3.3V #PWR034
 U 1 1 52F7DDCB
-P 1450 2400
-F 0 "#PWR034" H 1450 2360 30  0001 C CNN
-F 1 "+3.3V" H 1450 2510 30  0000 C CNN
-F 2 "" H 1450 2400 60  0000 C CNN
-F 3 "" H 1450 2400 60  0000 C CNN
-	1    1450 2400
+P 1400 3300
+F 0 "#PWR034" H 1400 3260 30  0001 C CNN
+F 1 "+3.3V" H 1400 3410 30  0000 C CNN
+F 2 "" H 1400 3300 60  0000 C CNN
+F 3 "" H 1400 3300 60  0000 C CNN
+	1    1400 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR035
 U 1 1 52F7DDDA
-P 1300 2600
-F 0 "#PWR035" H 1300 2690 20  0001 C CNN
-F 1 "+5V" H 1300 2690 30  0000 C CNN
-F 2 "" H 1300 2600 60  0000 C CNN
-F 3 "" H 1300 2600 60  0000 C CNN
-	1    1300 2600
+P 1550 3050
+F 0 "#PWR035" H 1550 3140 20  0001 C CNN
+F 1 "+5V" H 1550 3140 30  0000 C CNN
+F 2 "" H 1550 3050 60  0000 C CNN
+F 3 "" H 1550 3050 60  0000 C CNN
+	1    1550 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR036
 U 1 1 52F7DDE9
-P 1850 1650
-F 0 "#PWR036" H 1850 1650 30  0001 C CNN
-F 1 "GND" H 1850 1580 30  0001 C CNN
-F 2 "" H 1850 1650 60  0000 C CNN
-F 3 "" H 1850 1650 60  0000 C CNN
-	1    1850 1650
+P 1850 2800
+F 0 "#PWR036" H 1850 2800 30  0001 C CNN
+F 1 "GND" H 1850 2730 30  0001 C CNN
+F 2 "" H 1850 2800 60  0000 C CNN
+F 3 "" H 1850 2800 60  0000 C CNN
+	1    1850 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -115,15 +115,13 @@ F 4 "OSTTE120104" H 4750 1550 60  0001 C CNN "MFG Part Number"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 1000 1800 1000
+	4400 1000 1850 1000
 Wire Wire Line
-	1800 1100 4400 1100
+	1850 1100 4400 1100
 Wire Wire Line
-	1850 1650 1850 1200
+	1950 1200 4400 1200
 Wire Wire Line
-	1850 1200 4400 1200
-Wire Wire Line
-	2100 1300 2100 1900
+	2100 1300 2100 1850
 Wire Wire Line
 	2100 1300 4400 1300
 Wire Wire Line
@@ -131,33 +129,33 @@ Wire Wire Line
 Wire Wire Line
 	2250 1400 2250 2050
 Wire Wire Line
-	1450 2400 2400 2400
+	1850 2300 2400 2300
 Wire Wire Line
-	2400 2400 2400 1500
+	2400 2300 2400 1500
 Wire Wire Line
 	2400 1500 4400 1500
 Wire Wire Line
 	4400 1600 2550 1600
 Wire Wire Line
-	2550 1600 2550 2600
+	2550 1600 2550 2450
 Wire Wire Line
-	2550 2600 1300 2600
+	2550 2450 1850 2450
 Wire Wire Line
-	1850 2800 2700 2800
+	1850 2650 2700 2650
 Wire Wire Line
-	2700 2800 2700 1700
+	2700 2650 2700 1700
 Wire Wire Line
 	2700 1700 4400 1700
 Wire Wire Line
-	2850 2950 2850 1800
+	2850 3100 2850 1800
 Wire Wire Line
 	2850 1800 4400 1800
 Wire Wire Line
 	3000 1900 4400 1900
 Wire Wire Line
-	3000 1900 3000 3350
+	3000 3350 3000 1900
 Wire Wire Line
-	3000 3350 1850 3350
+	1400 3350 3000 3350
 Wire Wire Line
 	1850 3700 3200 3700
 Wire Wire Line
@@ -198,9 +196,19 @@ Wire Wire Line
 Wire Wire Line
 	2300 5600 3100 5600
 Wire Wire Line
-	1850 2950 2850 2950
+	1550 3100 2850 3100
 Wire Wire Line
-	2100 1900 1450 1900
+	2100 1850 1850 1850
 Wire Wire Line
-	2250 2050 1450 2050
+	2250 2050 1850 2050
+Wire Wire Line
+	1400 3300 1400 3350
+Wire Wire Line
+	1550 3100 1550 3050
+Wire Wire Line
+	1950 1200 1950 1650
+Wire Wire Line
+	1950 1650 1850 1650
+Wire Wire Line
+	1850 2650 1850 2800
 $EndSCHEMATC
