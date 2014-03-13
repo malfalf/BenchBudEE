@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 04/03/2014 18:41:50
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 13/03/2014 19:24:47
 
 BeginCmp
 TimeStamp = /52ED1BFA/52FF78C8;
@@ -327,6 +327,13 @@ TimeStamp = /52ED1C5C/5300ADAC;
 Reference = L4;
 ValeurCmp = CM322522-220KL;
 IdModule  = SM1210L;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C3D/5321FEC1;
+Reference = L5;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
