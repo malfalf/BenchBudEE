@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "13 mar 2014"
+Date "15 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,13 +45,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6700 5700 2    60   Output ~ 0
+Text HLabel 6700 4950 2    60   Output ~ 0
 RELAY+
 Text HLabel 8550 5550 2    60   Output ~ 0
 RELAY-
-Text HLabel 6700 4200 2    60   Output ~ 0
+Text HLabel 6700 4050 2    60   Output ~ 0
 MOSI
-Text HLabel 6700 4050 2    60   Input ~ 0
+Text HLabel 6700 4200 2    60   Input ~ 0
 MISO
 Text HLabel 6700 3900 2    60   Output ~ 0
 SCLK
@@ -72,7 +72,7 @@ F 1 "R" V 6207 4351 40  0000 C CNN
 F 2 "~" V 6130 4350 30  0000 C CNN
 F 3 "~" H 6200 4350 30  0000 C CNN
 	1    6200 4350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5750 4350 5950 4350
@@ -81,25 +81,23 @@ Wire Wire Line
 $Comp
 L R R31
 U 1 1 52F7FF15
-P 6200 5700
-F 0 "R31" V 6280 5700 40  0000 C CNN
-F 1 "R" V 6207 5701 40  0000 C CNN
-F 2 "~" V 6130 5700 30  0000 C CNN
-F 3 "~" H 6200 5700 30  0000 C CNN
-	1    6200 5700
-	0    -1   -1   0   
+P 6200 4950
+F 0 "R31" V 6280 4950 40  0000 C CNN
+F 1 "R" V 6207 4951 40  0000 C CNN
+F 2 "~" V 6130 4950 30  0000 C CNN
+F 3 "~" H 6200 4950 30  0000 C CNN
+	1    6200 4950
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5750 5700 5950 5700
-Wire Wire Line
-	6450 5700 6700 5700
+	6450 4950 6700 4950
 Wire Wire Line
 	7700 5550 7700 5850
 $Comp
-L GND #PWR51
+L GND #PWR041
 U 1 1 52F7FF5C
 P 7700 5850
-F 0 "#PWR51" H 7700 5850 30  0001 C CNN
+F 0 "#PWR041" H 7700 5850 30  0001 C CNN
 F 1 "GND" H 7700 5780 30  0001 C CNN
 F 2 "" H 7700 5850 60  0000 C CNN
 F 3 "" H 7700 5850 60  0000 C CNN
@@ -179,7 +177,7 @@ F 1 "R" V 6207 4801 40  0000 C CNN
 F 2 "~" V 6130 4800 30  0000 C CNN
 F 3 "~" H 6200 4800 30  0000 C CNN
 	1    6200 4800
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L R R26
@@ -190,7 +188,7 @@ F 1 "R" V 6207 4201 40  0000 C CNN
 F 2 "~" V 6130 4200 30  0000 C CNN
 F 3 "~" H 6200 4200 30  0000 C CNN
 	1    6200 4200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L R R25
@@ -201,7 +199,7 @@ F 1 "R" V 6207 4051 40  0000 C CNN
 F 2 "~" V 6130 4050 30  0000 C CNN
 F 3 "~" H 6200 4050 30  0000 C CNN
 	1    6200 4050
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L R R24
@@ -212,7 +210,7 @@ F 1 "R" V 6207 3901 40  0000 C CNN
 F 2 "~" V 6130 3900 30  0000 C CNN
 F 3 "~" H 6200 3900 30  0000 C CNN
 	1    6200 3900
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5750 3900 5950 3900
@@ -239,7 +237,7 @@ F 1 "R" V 8157 5551 40  0000 C CNN
 F 2 "~" V 8080 5550 30  0000 C CNN
 F 3 "~" H 8150 5550 30  0000 C CNN
 	1    8150 5550
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7700 5550 7900 5550
@@ -256,7 +254,7 @@ F 1 "R" V 6207 4501 40  0000 C CNN
 F 2 "~" V 6130 4500 30  0000 C CNN
 F 3 "~" H 6200 4500 30  0000 C CNN
 	1    6200 4500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5950 4500 5750 4500
@@ -271,7 +269,7 @@ F 1 "R" V 6207 4651 40  0000 C CNN
 F 2 "~" V 6130 4650 30  0000 C CNN
 F 3 "~" H 6200 4650 30  0000 C CNN
 	1    6200 4650
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text HLabel 6700 4650 2    60   Output ~ 0
 ~ADC_CS
@@ -290,7 +288,7 @@ F 1 "R" V 6207 5851 40  0000 C CNN
 F 2 "~" V 6130 5850 30  0000 C CNN
 F 3 "~" H 6200 5850 30  0000 C CNN
 	1    6200 5850
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5750 5850 5950 5850
@@ -305,7 +303,7 @@ F 1 "R" V 3307 4651 40  0000 C CNN
 F 2 "~" V 3230 4650 30  0000 C CNN
 F 3 "~" H 3300 4650 30  0000 C CNN
 	1    3300 4650
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3700 4650 3550 4650
@@ -314,10 +312,10 @@ Wire Wire Line
 Wire Wire Line
 	2400 4650 2400 4450
 $Comp
-L +12P #PWR49
+L +12P #PWR042
 U 1 1 52FACD63
 P 2400 4450
-F 0 "#PWR49" H 2400 4420 30  0001 C CNN
+F 0 "#PWR042" H 2400 4420 30  0001 C CNN
 F 1 "+12P" H 2400 4550 30  0000 C CNN
 F 2 "" H 2400 4450 60  0000 C CNN
 F 3 "" H 2400 4450 60  0000 C CNN
@@ -338,10 +336,10 @@ $EndComp
 Wire Wire Line
 	2400 4200 2400 3950
 $Comp
-L +5V #PWR48
+L +5V #PWR043
 U 1 1 5300B8CD
 P 2400 3950
-F 0 "#PWR48" H 2400 4040 20  0001 C CNN
+F 0 "#PWR043" H 2400 4040 20  0001 C CNN
 F 1 "+5V" H 2400 4040 30  0000 C CNN
 F 2 "" H 2400 3950 60  0000 C CNN
 F 3 "" H 2400 3950 60  0000 C CNN
@@ -357,7 +355,7 @@ F 1 "R" V 3307 4201 40  0000 C CNN
 F 2 "~" V 3230 4200 30  0000 C CNN
 F 3 "~" H 3300 4200 30  0000 C CNN
 	1    3300 4200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L R R17
@@ -368,7 +366,7 @@ F 1 "R" V 3307 4351 40  0000 C CNN
 F 2 "~" V 3230 4350 30  0000 C CNN
 F 3 "~" H 3300 4350 30  0000 C CNN
 	1    3300 4350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L R R18
@@ -379,7 +377,7 @@ F 1 "R" V 3307 4501 40  0000 C CNN
 F 2 "~" V 3230 4500 30  0000 C CNN
 F 3 "~" H 3300 4500 30  0000 C CNN
 	1    3300 4500
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3550 4200 3700 4200
@@ -397,10 +395,10 @@ Wire Wire Line
 	2800 4500 3050 4500
 Connection ~ 2800 4500
 $Comp
-L GND #PWR50
+L GND #PWR044
 U 1 1 5300B9FD
 P 2800 4550
-F 0 "#PWR50" H 2800 4550 30  0001 C CNN
+F 0 "#PWR044" H 2800 4550 30  0001 C CNN
 F 1 "GND" H 2800 4480 30  0001 C CNN
 F 2 "" H 2800 4550 60  0000 C CNN
 F 3 "" H 2800 4550 60  0000 C CNN
@@ -418,7 +416,7 @@ F 1 "R" V 6207 5251 40  0000 C CNN
 F 2 "~" V 6130 5250 30  0000 C CNN
 F 3 "~" H 6200 5250 30  0000 C CNN
 	1    6200 5250
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5750 5250 5950 5250
@@ -433,7 +431,7 @@ F 1 "R" V 6207 5101 40  0000 C CNN
 F 2 "~" V 6130 5100 30  0000 C CNN
 F 3 "~" H 6200 5100 30  0000 C CNN
 	1    6200 5100
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5750 5100 5950 5100
@@ -450,7 +448,7 @@ F 1 "R" V 6207 5401 40  0000 C CNN
 F 2 "~" V 6130 5400 30  0000 C CNN
 F 3 "~" H 6200 5400 30  0000 C CNN
 	1    6200 5400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L R R51
@@ -461,7 +459,7 @@ F 1 "R" V 6207 5551 40  0000 C CNN
 F 2 "~" V 6130 5550 30  0000 C CNN
 F 3 "~" H 6200 5550 30  0000 C CNN
 	1    6200 5550
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text HLabel 6700 5550 2    60   Output ~ 0
 ~SHDN
@@ -475,4 +473,6 @@ Wire Wire Line
 	5950 5400 5750 5400
 Wire Wire Line
 	5750 5550 5950 5550
+Wire Wire Line
+	5750 4950 5950 4950
 $EndSCHEMATC
