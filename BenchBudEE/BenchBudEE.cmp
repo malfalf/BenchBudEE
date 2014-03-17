@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 15/03/2014 12:30:41
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 17/03/2014 19:15:55
 
 BeginCmp
 TimeStamp = /52ED1BFA/52FF78C8;
@@ -183,10 +183,52 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /52ED1CD3/53245B53;
+Reference = C26;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1CD3/53245B33;
+Reference = C27;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1CD3/53245B39;
+Reference = C28;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1CD3/53245A68;
+Reference = C29;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C3D/53259593;
+Reference = C30;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C3D/532596D8;
+Reference = C31;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52ED1C4D/52F6294F;
 Reference = D1;
 ValeurCmp = LG Q971-KN-1;
-IdModule  = LED-0603;
+IdModule  = LED-0603-2;
 EndCmp
 
 BeginCmp
@@ -372,6 +414,20 @@ IdModule  = 3_Pin_TB;
 EndCmp
 
 BeginCmp
+TimeStamp = /52F64583/53275FA2;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = V8508H;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F64583/53275FAF;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = V8508H;
+EndCmp
+
+BeginCmp
 TimeStamp = /52ED1C4D/52F62940;
 Reference = Q1;
 ValeurCmp = 2N3904;
@@ -388,14 +444,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52ED1CA7/53093393;
 Reference = Q3;
-ValeurCmp = B130-13-F;
+ValeurCmp = AOD476;
 IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1CA7/53093330;
 Reference = Q4;
-ValeurCmp = B130-13-F;
+ValeurCmp = AOD476;
 IdModule  = DPAK2;
 EndCmp
 
@@ -505,10 +561,10 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52ED1BFA/5300B8E0;
+TimeStamp = /52F64583/53275DB1;
 Reference = R16;
 ValeurCmp = R;
-IdModule  = SM0805-SB;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -787,6 +843,13 @@ EndCmp
 BeginCmp
 TimeStamp = /52ED1CD3/53244537;
 Reference = R56;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F64583/53275DB7;
+Reference = R57;
 ValeurCmp = R;
 IdModule  = SM0805;
 EndCmp
