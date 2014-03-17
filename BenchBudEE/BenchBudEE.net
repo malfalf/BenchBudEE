@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/Laura y Miguel/Desktop/MIGUEL/Cursos/ContextualElectronicsRepository/BenchBudEE/BenchBudEE/BenchBudEE.sch")
-    (date "16/03/2014 11:35:53")
+    (date "16/03/2014 12:01:10")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref U4)
@@ -733,18 +733,18 @@
       (sheetpath (names /Fan/) (tstamps /52ED1CA7/))
       (tstamp 53092EED))
     (comp (ref Q4)
-      (value B130-13-F)
+      (value AOD476)
       (fields
         (field (name "MFG Name") "Alpha and Omega")
-        (field (name "MFG Part Number") B130-13-F))
+        (field (name "MFG Part Number") AOD476))
       (libsource (lib BenchBuddy) (part MOS_N_NUM))
       (sheetpath (names /Fan/) (tstamps /52ED1CA7/))
       (tstamp 53093330))
     (comp (ref Q3)
-      (value B130-13-F)
+      (value AOD476)
       (fields
         (field (name "MFG Name") "Alpha and Omega")
-        (field (name "MFG Part Number") B130-13-F))
+        (field (name "MFG Part Number") AOD476))
       (libsource (lib BenchBuddy) (part MOS_N_NUM))
       (sheetpath (names /Fan/) (tstamps /52ED1CA7/))
       (tstamp 53093393)))
