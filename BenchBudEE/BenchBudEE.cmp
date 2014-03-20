@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 18/03/2014 18:16:10
+Cmp-Mod V01 Created by PcbNew date = 20/03/2014 18:55:38
 
 BeginCmp
 TimeStamp = /52ED1BFA/52FF78C8;
@@ -445,14 +445,14 @@ BeginCmp
 TimeStamp = /52ED1CA7/53093393;
 Reference = Q3;
 ValeurCmp = AOD476;
-IdModule  = DPAK2;
+IdModule  = DPAK2_BB;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1CA7/53093330;
 Reference = Q4;
 ValeurCmp = AOD476;
-IdModule  = DPAK2;
+IdModule  = DPAK2_BB;
 EndCmp
 
 BeginCmp
@@ -753,7 +753,7 @@ BeginCmp
 TimeStamp = /52ED1CA7/52F13D66;
 Reference = R43;
 ValeurCmp = R;
-IdModule  = SM1206;
+IdModule  = SM1206_NotOutline;
 EndCmp
 
 BeginCmp
@@ -855,6 +855,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /52ED1C5C/531391A7;
+Reference = STAR1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
 TimeStamp = /52ED1C5C/52F65DFE;
 Reference = SW1;
 ValeurCmp = Power Switch;
@@ -897,10 +904,73 @@ IdModule  = SM1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /52ED1C5C/531391A7;
+TimeStamp = /52ED1C3D/532B578B;
 Reference = TP1;
-ValeurCmp = CONN_1;
-IdModule  = 1pin;
+ValeurCmp = 5V;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C3D/532B36E1;
+Reference = TP2;
+ValeurCmp = CH1+;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C3D/532B3628;
+Reference = TP3;
+ValeurCmp = CH0+;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C4D/532B3F5C;
+Reference = TP4;
+ValeurCmp = RELAY_LOW;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F64583/532B47ED;
+Reference = TP5;
+ValeurCmp = AGND;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F64583/532B4744;
+Reference = TP6;
+ValeurCmp = FE_V-;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F64583/532B469C;
+Reference = TP7;
+ValeurCmp = FE_V+;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F64583/532B448F;
+Reference = TP8;
+ValeurCmp = GND_PWR;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1CA7/532B391C;
+Reference = TP9;
+ValeurCmp = DAC_OUT;
+IdModule  = TestPontTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C4D/532B6892;
+Reference = TP10;
+ValeurCmp = 12P;
+IdModule  = TestPontTH;
 EndCmp
 
 BeginCmp
@@ -946,16 +1016,16 @@ IdModule  = TO220_BB;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F64583/52F67627;
+TimeStamp = /52F64583/53289838;
 Reference = U7;
-ValeurCmp = LM317;
+ValeurCmp = LM317T;
 IdModule  = TO220_BB;
 EndCmp
 
 BeginCmp
-TimeStamp = /52F64583/5309E0BF;
+TimeStamp = /52F64583/53289786;
 Reference = U8;
-ValeurCmp = LM317;
+ValeurCmp = LM317T;
 IdModule  = TO220_BB;
 EndCmp
 
