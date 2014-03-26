@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 20/03/2014 18:55:38
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 24/03/2014 18:04:34
 
 BeginCmp
 TimeStamp = /52ED1BFA/52FF78C8;
@@ -225,6 +225,20 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /52ED1CA7/5330B986;
+Reference = C32;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1CA7/5330BB0D;
+Reference = C33;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52ED1C4D/52F6294F;
 Reference = D1;
 ValeurCmp = LG Q971-KN-1;
@@ -341,6 +355,20 @@ TimeStamp = /52ED1C4D/52F62EE5;
 Reference = K1;
 ValeurCmp = 1461069-5;
 IdModule  = TE-SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F64583/53309BCB;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F64583/5330A3CE;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
@@ -851,6 +879,48 @@ BeginCmp
 TimeStamp = /52F64583/53275DB7;
 Reference = R57;
 ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C3D/53307EBF;
+Reference = R58;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C3D/53307C38;
+Reference = R59;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1C3D/53307D8E;
+Reference = R60;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1CA7/5330BB9D;
+Reference = R61;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1CA7/5330B8F1;
+Reference = R62;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1CA7/5330BA2F;
+Reference = R63;
+ValeurCmp = 0;
 IdModule  = SM0805;
 EndCmp
 
